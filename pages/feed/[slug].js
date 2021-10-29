@@ -16,7 +16,11 @@ const Feed = ({ pageNumber = 1, articles }) => {
               {article.title}
             </h2>
             <p>{article.description}</p>
-            {!!article.urlToImage && <img src={article.urlToImage} alt="" />}
+            {article.urlToImage ? (
+              <img src={article.urlToImage} alt="image not loading" />
+            ) : (
+              <p>*No Image Available*</p>
+            )}
             <p className={styles.post__source}>Source: {article.source.name}</p>
           </div>
         ))}
