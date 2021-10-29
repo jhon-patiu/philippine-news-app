@@ -9,8 +9,8 @@ export default function Home() {
       <Toolbar />
 
       <div className={styles.main}>
-        <h1>Next.js News App</h1>
-        <h3>hello world</h3>
+        <h1>PhiLippine News App</h1>
+        <h3>hello, world</h3>
       </div>
     </div>
   );

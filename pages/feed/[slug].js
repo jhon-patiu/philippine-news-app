@@ -3,14 +3,13 @@ import { useRouter } from "next/router";
 import { Toolbar } from "../../components/toolbar";
 
 const Feed = ({ pageNumber = 1, articles }) => {
-  console.log(articles, pageNumber);
-
   const router = useRouter();
 
   return (
     <div className="page-container">
       <Toolbar />
       <div className={styles.main}>
+        <h3 className={styles.heading}>Top Stories</h3>
         {articles.map((article, index) => (
           <div key={index} className={styles.post}>
             <h2 onClick={() => (window.location.href = article.url)}>
@@ -46,6 +45,9 @@ const Feed = ({ pageNumber = 1, articles }) => {
           Next
         </div>
       </div>
+      <footer className={styles.footer}>
+        &copy; 2021 Developed by: Jhon Patiu
+      </footer>
     </div>
   );
 };

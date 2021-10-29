@@ -6,7 +6,7 @@ export const Toolbar = () => {
     <div className={styles.main}>
       <Link href="/">Home</Link>
       <Link href="/feed/1">Feed</Link>
-      <Link href="/eom">Employee Of The Month</Link>
+      <Link href="/eom">Staff</Link>
       <Link href="https://www.facebook.com/PatiuJhon">Facebook</Link>
     </div>
   );

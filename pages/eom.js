@@ -1,12 +1,12 @@
 import { Toolbar } from "../components/toolbar";
-import styles from "../styles/EOM.module.css";
+import styles from "../styles/eom.module.css";
 
 const EOM = ({ employee }) => {
   return (
     <div className="page-container">
       <Toolbar />
       <div className={styles.main}>
-        <h1>Employee of the Month page</h1>
+        <h1>Employee of the Month</h1>
         <div className={styles.eom}>
           <h2>{employee.name}</h2>
           <h4>{employee.position}</h4>
