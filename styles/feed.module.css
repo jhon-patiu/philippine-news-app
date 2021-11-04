@@ -1,69 +1,70 @@
 .main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 2em 0.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em 0.5em;
 }
 .heading {
-  margin-bottom: 4em;
+    margin-bottom: 4em;
 }
 
 .post {
-  width: 500px;
-  margin-bottom: 25px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid rgb(87, 106, 121);
+    width: 500px;
+
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(87, 106, 121);
 }
 
 .post img {
-  width: 100%;
+    width: 100%;
 }
 
 .post h2 {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .post h2:hover {
-  color: rgb(87, 106, 121);
+    color: rgb(87, 106, 121);
 }
 
 .post__source {
-  font-style: italic;
+    font-style: italic;
 }
 
 .paginator {
-  width: 100%;
-  height: 70px;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
 
-  margin-bottom: 5em;
+    margin-bottom: 5em;
 }
 
 .paginator div {
-  margin: 25px;
+    margin: 25px;
 }
 
 .paginator .active {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .paginator .disabled {
-  cursor: not-allowed;
-  color: lightgray;
+    cursor: not-allowed;
+    color: lightgray;
 }
 
 .footer {
-  width: 100%;
-  margin: 0.5em auto;
-  text-align: center;
+    width: 100%;
+    margin: 0.5em auto;
+    text-align: center;
 }
 
 @media (max-width: 720px) {
-  .post {
-    width: auto;
-    font-size: smaller;
-    margin: 0 1em;
-    text-align: center;
-  }
+    .post {
+        width: auto;
+        font-size: smaller;
+        margin: 0 1em;
+        text-align: center;
+    }
 }
