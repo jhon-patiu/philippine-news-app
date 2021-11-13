@@ -1,6 +1,6 @@
 import * as styles from "../../styles/feed.module.css";
 import { useRouter } from "next/router";
-import { Toolbar } from "../../components/toolbar";
+import { Toolbar } from "../../components/Toolbar";
 import Head from "next/head";
 
 const Feed = ({ pageNumber = 1, articles }) => {

@@ -1,4 +1,4 @@
-import { Toolbar } from "../components/toolbar";
+import { Toolbar } from "../components/Toolbar";
 import * as styles from "../styles/eom.module.css";
 
 const EOM = ({ employee }) => {

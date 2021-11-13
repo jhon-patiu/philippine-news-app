@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Toolbar } from "../components/toolbar";
+import { Toolbar } from "../components/Toolbar";
 
 import * as styles from "../styles/Home.module.css";
 
