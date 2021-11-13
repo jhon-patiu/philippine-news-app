@@ -1,4 +1,4 @@
-import styles from "../../styles/feed.module.css";
+import * as styles from "../../styles/feed.module.css";
 import { useRouter } from "next/router";
 import { Toolbar } from "../../components/toolbar";
 

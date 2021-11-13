@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../styles/Toolbar.module.css";
+import * as styles from "../styles/Toolbar.module.css";
 
 export const Toolbar = () => {
     return (
